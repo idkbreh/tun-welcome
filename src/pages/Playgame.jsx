@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import { Button, Input, Alert, Slider } from 'antd';
 import { Link } from 'react-router-dom';
 
@@ -45,7 +45,7 @@ function Playgame() {
                 return (
                     <>
                         <h1>น้องเคยแก้เลขฐานสองไหม</h1>
-                        <center><img src="../public/tableascii.JPG" width={200} height={200} className="spin"/></center>
+                        <center><img src="/tableascii.JPG" width={200} height={200} className="spin"/></center>
                         <Button style={{margin:"1rem 0.3rem"}} type='dashed' onClick={() => setContent('step4')}>เคย</Button>
                         <Button style={{margin:"1rem 0rem"}} type='dashed' onClick={() => setContent('step4')}>เคย🤣</Button>
                     </>
@@ -55,7 +55,7 @@ function Playgame() {
                     <>
                         <h1>น้องลองแก้อันนี้ให้หน่อย</h1>
                         <p>ใช้เว็บแก้ได้</p>
-                        <center><img src="../public/tableascii.JPG" width={200} height={200} className="spin"/></center>
+                        <center><img src="/tableascii.JPG" width={200} height={200} className="spin"/></center>
                         <h6>01010000 01010100 01101111 01110000 01010011 01110101 01100100 01001100 01101111 01110010</h6>
                         {error && <Alert message="ยังไม่ใช่น้องรัก" type="error" showIcon />}
                         <Input 
@@ -97,8 +97,8 @@ function Playgame() {
 
     return (
         <div>
-            <audio src="../public/lobby.mp3" autoPlay loop ref={audioRef} />
-            <img src="../public/helloworld.png" width={90} height={100} className="spin" />
+            <audio src="/lobby.mp3" autoPlay loop ref={audioRef} />
+            <img src="/helloworld.png" width={90} height={100} className="spin" />
             <div className="content">
                 {Content()}
             </div>
