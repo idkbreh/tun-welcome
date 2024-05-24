@@ -10,7 +10,7 @@ function App() {
       <div>
         <img src={reactLogo} className="logo react spin" alt="React logo" />
       </div>
-      <img src="../public/helloworld.png" width={90} height={100} className="spin"/>
+      <img src="/helloworld.png" width={90} height={100} className="spin"/>
       <div className="card">
         <h1>
           สวัสดีค้าบเบบี้ มาที่นี่ได้ไง
