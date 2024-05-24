@@ -57,7 +57,7 @@ function Playgame() {
                         <p>ใช้เว็บแก้ได้</p>
                         <center><img src="/tableascii.JPG" width={200} height={200} className="spin"/></center>
                         <h6>01010000 01010100 01101111 01110000 01010011 01110101 01100100 01001100 01101111 01110010</h6>
-                        {error && <Alert message="ยังไม่ใช่น้องรัก" type="error" showIcon />}
+                        {error && <Alert message="ยังไม่ใช่น้องรัก" type="error" showIcon style={{margin:"0.2rem 0rem"}}/>}
                         <Input 
                             placeholder='ตอบตรงนี้' 
                             value={answer} 
